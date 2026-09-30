@@ -1,0 +1,20 @@
+    1  cp /bin/cat ~/mycat
+    2  ~/mycat /etc/shadow
+    3  ls -l ~/mycat
+    4  exit
+    5  ls -l ~/mycat
+    6  ~/mycat /etc/shadow
+    7  cat /etc/shadow
+    8  touch ~/testfile
+    9  chown root:root ~/testfile
+   10  sudo visudo
+   11  exit
+   12  sudo chown root:root ~/testfile
+   13  sudo grep -n "user1" /etc/sudoers
+   14  su -
+   15  sudo chown root:root ~/testfile
+   16  ls -l ~/testfile
+   17  su -
+   18  sudo timedatectl set-time "2026-10-01 12:00:00"
+   19  timedatectl status 
+   20  history > ~/history.out
